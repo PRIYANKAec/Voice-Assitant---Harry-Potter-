@@ -1,0 +1,85 @@
+.div-element{
+  height: 100%; 
+  overflow: hidden;
+  
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background:rgb(60, 180, 236);
+}
+
+.head{
+  text-align: center;
+  font-size: 40px;
+  font-style:italic;
+  color: gold;
+}
+.button{
+  padding: 20px;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: #082b75;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.text{
+  font-style: italic;
+  color: #c80fe0;
+  font-size:30px;
+}
+.transcript-box{
+  border: 1px solid #e4db5a; 
+  border-radius: 30px;
+  margin-top: 30px; 
+  overflow-y: auto; 
+  padding: 10px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container.container-sm {
+  max-width: 782px;
+}
+
+.title {
+  font-size: 3.75rem;
+  font-weight: 500;
+  margin: 3rem 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select {
+  border: 1px solid rgba(238, 238, 238, 0.933);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.promptBox {
+  box-shadow: 0 2px 8px 3px rgba(0, 0, 0, 0.15);
+}
+.answerBox {
+  background-color: rgb(36, 59, 36);
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.text-light {
+  color: #f8f9fa;
+}
